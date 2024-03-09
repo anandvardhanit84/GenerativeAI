@@ -4,9 +4,7 @@ By Anand Vardhan 2002PAI9001
 
 Seq2Seq (Sequence-to-Sequence) models have gained popularity in natural language processing tasks, particularly in tasks involving text summarization. These models are a type of neural network architecture consisting of two recurrent neural networks (RNNs) - an encoder and a decoder. They are particularly adept at handling sequences of varying lengths, making them suitable for tasks like text summarization.
 
-uitable for tasks like text summarization.
-
-Here's a brief introduction to how Seq2Seq models work for text summarization:
+#### Keypoints of Text Summarization
 
 Encoder-Decoder Architecture: The Seq2Seq model consists of two main components - an encoder and a decoder. The encoder processes the input sequence (e.g., a document or a long piece of text) and converts it into a fixed-dimensional context vector, which captures the essence of the input. The decoder then takes this context vector and generates the output sequence (e.g., a summary) based on it.
 
