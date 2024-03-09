@@ -16,6 +16,9 @@ Training: Seq2Seq models are trained using pairs of input-output sequences. Duri
 
 Beam Search: During inference (generating summaries for new input sequences), beam search is often used to find the most probable output sequence. Beam search expands the search space by considering multiple possible output sequences simultaneously, selecting the one with the highest likelihood according to the model.
 
-Applications of Text Summarization
+#### Applications of Text Summarization
 
 Text summarization using Seq2Seq models has various applications, including automatic summarization of news articles, research papers, or customer reviews. These models have shown promising results in generating concise and informative summaries, capturing the main ideas and important details from the input text. However, they also face challenges such as generating fluent and coherent summaries, especially for longer texts or when dealing with ambiguous or nuanced language. Ongoing research aims to address these challenges and further improve the performance of Seq2Seq models for text summarization tasks.
+
+#### Training Dataset
+News dataset from Kragel of 21 MB with over 90k raws of news in the CSV format
